@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      "discord-paginationembed@1.0.1",
+      "/home/lenhattruong166/app"
+    ]
+  ],
+  "_from": "discord-paginationembed@1.0.1",
+  "_id": "discord-paginationembed@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-OFMSBCHIpcYVJW2HkoHvH2aBAXA/DQTGJabn1UbLpB/vCOJKg/0lEjcX01dO8Z1FmQRTEP8roOUsQnSDdSyXVg==",
+  "_location": "/discord-paginationembed",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "discord-paginationembed@1.0.1",
+    "name": "discord-paginationembed",
+    "escapedName": "discord-paginationembed",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/discord-paginationembed/-/discord-paginationembed-1.0.1.tgz",
+  "_spec": "1.0.1",
+  "_where": "/home/lenhattruong166/app",
+  "author": {
+    "name": "gazmull"
+  },
+  "bugs": {
+    "url": "https://github.com/gazmull/discord-paginationembed/issues"
+  },
+  "description": "A pagination utility for MessageEmbed in Discord.JS",
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^5.0.1",
+    "tslint": "^5.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typedoc": "^0.15.0",
+    "typedoc-plugin-no-inherit": "^1.1.9",
+    "typescript": "^3.5.3"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "homepage": "https://github.com/gazmull/discord-paginationembed#readme",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "pagination",
+    "embed",
+    "paginationembed",
+    "emoji",
+    "react",
+    "leaderboard"
+  ],
+  "license": "MIT",
+  "main": "./bin/index.js",
+  "name": "discord-paginationembed",
+  "peerDependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gazmull/discord-paginationembed.git"
+  },
+  "scripts": {
+    "dev:start": "nodemon ./test/bot.js --config .nodemon.json",
+    "dev:watch": "tsc -p . --watch",
+    "docs:parse": "npm run gh:build -- --json ./bin/docs.json",
+    "gh:build": "typedoc src",
+    "lint-fix": "npm run lint --fix",
+    "prepublishOnly": "npm test",
+    "pub": "npm publish",
+    "test": "gulp",
+    "test:bot": "node ./test/bot.js",
+    "test:build": "gulp build"
+  },
+  "types": "./typings",
+  "version": "1.0.1"
+}

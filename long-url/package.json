@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "long-url@1.0.2",
+      "/home/lenhattruong166/app"
+    ]
+  ],
+  "_from": "long-url@1.0.2",
+  "_id": "long-url@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-wm+f1Di/nUw6pig1cBbLDv2WPw0=",
+  "_location": "/long-url",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "long-url@1.0.2",
+    "name": "long-url",
+    "escapedName": "long-url",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/long-url/-/long-url-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/home/lenhattruong166/app",
+  "author": {
+    "name": "Bjarne Oeverli"
+  },
+  "bin": {
+    "long-url": "./bin/reverse-url-shortener"
+  },
+  "bugs": {
+    "url": "https://github.com/bjarneo/long-url/issues"
+  },
+  "description": "Reverse url shortener. Get the location of those shortened urls.",
+  "devDependencies": {
+    "eslint": "^1.8.0",
+    "eslint-config-vgno": "^5.0.0",
+    "mocha": "^2.3.4"
+  },
+  "homepage": "https://github.com/bjarneo/long-url",
+  "keywords": [
+    "reverse",
+    "url",
+    "shortener",
+    "shorten",
+    "header",
+    "location"
+  ],
+  "license": "MIT",
+  "main": "src/reverse.js",
+  "name": "long-url",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjarneo/long-url.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "posttest": "npm run lint",
+    "prepublish": "npm prune && npm test",
+    "test": "mocha test/"
+  },
+  "version": "1.0.2"
+}

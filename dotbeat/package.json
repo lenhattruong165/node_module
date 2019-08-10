@@ -1,0 +1,52 @@
+{
+  "_args": [
+    [
+      "dotbeat@1.0.2",
+      "/home/lenhattruong166/app"
+    ]
+  ],
+  "_from": "dotbeat@1.0.2",
+  "_id": "dotbeat@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-UMSv3z5MDHwv1OhObYE7y+t4EMvfloH+/7iueqTZEIu6pliCgN48pX50nARhLayL3Fv6/JVTUKhaalOd5NAynQ==",
+  "_location": "/dotbeat",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "dotbeat@1.0.2",
+    "name": "dotbeat",
+    "escapedName": "dotbeat",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/dotbeat/-/dotbeat-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/home/lenhattruong166/app",
+  "author": {
+    "name": "Justin Vos"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "description": "Simple Swatch Internet Time grabber and formatter.",
+  "keywords": [
+    "time",
+    "swatch",
+    "beat",
+    "internet",
+    "dot"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "dotbeat",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

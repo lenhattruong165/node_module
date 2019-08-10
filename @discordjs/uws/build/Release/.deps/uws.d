@@ -1,0 +1,1 @@
+cmd_uws := LD_LIBRARY_PATH=/home/lenhattruong166/app/node_modules/@discordjs/uws/build/Release/lib.host:/home/lenhattruong166/app/node_modules/@discordjs/uws/build/Release/lib.target:$$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../.; cp "/home/lenhattruong166/app/node_modules/@discordjs/uws/build/Release/uws.node" uws_linux_64.node
